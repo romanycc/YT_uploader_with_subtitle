@@ -8,5 +8,5 @@
 ## Reference
 * [client_secret](https://developers.google.com/api-client-library/dotnet/guide/aaa_client_secrets)
 * [Python3 Tutorial - Upload Videos using the YouTube Data API](https://youtu.be/eq-mjehACe4?si=jg11rcC1EKT6V6M6)
-* [Youtube api-samples](https://github.com/youtube/api-samples/blob/master/python/captions.py)_
+* [Youtube api-samples](https://github.com/youtube/api-samples/blob/master/python/captions.py)
 * [Understanding YouTube API Quota Limits](https://github.com/ThioJoe/YT-Spammer-Purge/wiki/Understanding-YouTube-API-Quota-Limits)
