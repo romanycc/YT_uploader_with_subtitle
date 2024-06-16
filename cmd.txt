@@ -1,0 +1,5 @@
+python upload_video.py --file="test.mov" --title="Test" --subtitle="test.srt"
+python upload_video.py --file="test.mov" --title="Test" --subtitle="test.srt"
+
+
+python captions.py --videoid='a2a1pGlEiRc' --name='name' --file='test.srt' --language='zh-TW' --action='update' --captionid='AUieDaYjXy4TCDY5N5Lxw27Cht53Q4mTPBk-zNe3856KiUuHkZlszbNA'
