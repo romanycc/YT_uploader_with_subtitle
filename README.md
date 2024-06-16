@@ -6,8 +6,8 @@
 ## How to run
 * Put multiple client_secret_0.json, client_secret_1.json...... in client_secret folder, check reference first!
 * Put the video that needs to be uploaded in the upload folder.
-  -upload/videofolder1/a.mp4 upload/videofolder1/a.srt(optional)
-  -upload/videofolder2/b.mp4 upload/videofolder2/b.srt(optional)
+-upload/videofolder1/a.mp4 upload/videofolder1/a.srt(optional)
+-upload/videofolder2/b.mp4 upload/videofolder2/b.srt(optional)
 1. generate command
 ```python command.py > command.txt```
 2. copy command to run.sh
