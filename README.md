@@ -1,4 +1,4 @@
-# YT_uploader_with_subtitle
+# YouTube_uploader_with_subtitle
 ## Demo
 * [Usage](https://youtu.be/tQhnm6lCdGU?si=DpdP1KxgF3I4P17h)
 ## How to use
