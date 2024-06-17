@@ -12,8 +12,7 @@
 ```
 1. Generate command
 ```python command.py > command.txt```
-
-~~2. copy command to run.sh~~
+2. ~~copy command to run.sh~~
 2. Directly run ```./run.sh```
 ## Other
 * run.sh will remove upload_video.py-oauth2.json after a client_secret exceeds the quota of the YouTube Data API.
