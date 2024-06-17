@@ -44,8 +44,6 @@ def get_authenticated_service(args):
     flow = flow_from_clientsecrets(CLIENT_SECRETS_FILE,
                                    scope=[YOUTUBE_UPLOAD_SCOPE, YOUTUBE_FORCE_SSL_SCOPE, YOUTUBE_READ_WRITE_SSL_SCOPE],
                                    message=MISSING_CLIENT_SECRETS_MESSAGE)
-    print("%s-oauth2.json" % sys.argv[0])
-    exit
     storage = Storage(args.secret+"_%s-oauth2.json" % sys.argv[0])
     credentials = storage.get()
 
