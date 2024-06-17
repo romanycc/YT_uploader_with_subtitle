@@ -10,10 +10,10 @@
 -upload/videofolder1/a.mp4 upload/videofolder1/a.srt(optional)
 -upload/videofolder2/b.mp4 upload/videofolder2/b.srt(optional)
 ```
-1. generate command
+1. Generate command
 ```python command.py > command.txt```
-2. copy command to run.sh
-3. run ```./run.sh```
+2. ~~copy command to run.sh~~
+2. Directly run ```./run.sh```
 ## Other
 * run.sh will remove upload_video.py-oauth2.json after a client_secret exceeds the quota of the YouTube Data API.
 ## Reference
