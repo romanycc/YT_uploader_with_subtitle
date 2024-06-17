@@ -12,6 +12,7 @@
 ```
 1. Generate command
 ```python command.py > command.txt```
+
 ~~2. copy command to run.sh~~
 2. Directly run ```./run.sh```
 ## Other
