@@ -15,7 +15,8 @@
 2. ~~copy command to run.sh~~
 2. Directly run ```./run.sh```
 ## Other
-* run.sh will remove upload_video.py-oauth2.json after a client_secret exceeds the quota of the YouTube Data API.
+* run.sh will remove "upload_video.py-oauth2.json" after a client_secret exceeds the quota of the YouTube Data API.
+```find . -type f -name '*oauth2.json' -exec rm -f {} \;```
 ## Reference
 * [Python3 Tutorial - Upload Videos using the YouTube Data API](https://youtu.be/eq-mjehACe4?si=jg11rcC1EKT6V6M6)
 * [client_secret](https://developers.google.com/api-client-library/dotnet/guide/aaa_client_secrets)
