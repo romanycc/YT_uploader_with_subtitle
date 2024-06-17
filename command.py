@@ -29,9 +29,9 @@ def list_files_recursively(folder_path):
         if flag==1 and vflag==1:
             secret = "client_secret/client_secret_"+ str(int(count/5)) +".json"
             if srt!="":
-                print('"python upload_video.py --file={video} --title={title} --subtitle={srt} --secret={secret}"'.format(video=video, title=title, srt=srt, secret=secret))
+                print('python upload_video.py --file={video} --title={title} --subtitle={srt} --secret={secret}'.format(video=video, title=title, srt=srt, secret=secret))
             else:
-                print('"python upload_video.py --file={video} --title={title} --secret={secret}"'.format(video=video, title=title, secret=secret))
+                print('python upload_video.py --file={video} --title={title} --secret={secret}'.format(video=video, title=title, secret=secret))
             count = count + 1
 
     return file_list
