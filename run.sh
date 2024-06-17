@@ -9,7 +9,7 @@ while IFS= read -r line; do
 done < command.txt
 
 # Delete any file ending with "oauth2.json" first
-find . -type f -name '*oauth2.json' -exec rm -f {} \;
+# find . -type f -name '*oauth2.json' -exec rm -f {} \;
 
 # Iterate over each command and execute it
 for ((j=0; j<${#commands[@]}; j++))
@@ -25,7 +25,7 @@ do
     fi
     
     # Delete any file ending with "oauth2.json" every 5 commands
-    if (( (j + 1) % 5 == 0 )); then
-        find . -type f -name '*oauth2.json' -exec rm -f {} \;
-    fi
+    # if (( (j + 1) % 5 == 0 )); then
+    #     find . -type f -name '*oauth2.json' -exec rm -f {} \;
+    # fi
 done
